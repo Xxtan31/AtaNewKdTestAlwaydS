@@ -368,5 +368,5 @@ async def on_ready():
     await tree.sync()
     print(f'{bot.user} is connected to Discord!')
   
-TOKEN = 'MTI1NDg1MTYzNzE3Mjg5NTk0NQ.G1REyW.0mZC6zOALBFCHLDc6-YUQEdI8UcHbTAl8YgCxQ'
+TOKEN = 'MTI1NDg1MTYzNzE3Mjg5NTk0NQ.GJNDUA.Isq6zmbjqoDBC4o2nq3NZx71EZNWJM06Hx3TJM'
 bot.run(TOKEN)
