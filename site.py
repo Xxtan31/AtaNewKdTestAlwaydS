@@ -20,6 +20,11 @@ class Key(db.Model):
 with app.app_context():
     db.create_all()
 
+# Anasayfa endpointi
+@app.route('/')
+def home():
+    return jsonify({"message": "Welcome to the Key Management API!"}), 200
+
 # Key oluşturma endpointi
 @app.route('/create_key', methods=['POST'])
 def create_key():
